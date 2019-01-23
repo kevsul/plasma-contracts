@@ -33,7 +33,7 @@ contract RootChain {
      * Storage
      */
 
-    uint256 constant public MIN_EXIT_PERIOD = 20 seconds;
+    uint256 constant public MIN_EXIT_PERIOD = 10 seconds;
     uint256 constant public CHILD_BLOCK_INTERVAL = 1000;
 
     // WARNING: These placeholder bond values are entirely arbitrary.
